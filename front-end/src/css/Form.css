@@ -1,0 +1,30 @@
+section.form-section {
+    margin-top: 3rem;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+textarea.content {
+    display: block;
+    background-color: var(--color-dark-blue);
+    width: calc(100% -6px);
+    font-family: inherit;
+    font-size: inherit;
+    font-size: inherit;
+    height: 150px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--color-light-grey);
+    border-radius: 3px;
+    
+    resize: none;
+    color: var(--color-light-grey)
+}
+
+.form .btn {
+    align-self: flex-end;
+}
+
