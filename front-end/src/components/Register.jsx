@@ -1,7 +1,10 @@
 import React from "react";
 import '../css/Auth.css';
+import Header from "./Header";
 export default function Register() {
   return (
+    <div className="container">
+      <Header />
     <section className="auth-container">
       <form className="auth-form">
         <h2>Register New Account</h2>
@@ -20,5 +23,6 @@ export default function Register() {
         Register
       </button>
     </section>
+    </div>
   );
 }
